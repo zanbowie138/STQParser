@@ -1,0 +1,950 @@
+﻿Supplemental Topics
+	
+
+
+
+IB Computer Science HL
+	Supplemental Topics
+	#49 - #64
+	  
+
+Algorithmically generated artwork by Sergej Stoppel
+________________
+
+
+#49: Computer Networks
+	
+
+Vocabulary
+	Be prepared to define the following terms.
+* Client node
+* Email server
+* Hub
+* Router
+* Server node
+* Web server
+
+
+Applied Concepts
+	Respond to the following prompts.
+State 4 examples of hardware devices that can function as nodes in a computer network.
+
+
+	
+
+	
+
+	
+
+	Explain the sequence of operations and network devices involved between the time that a user clicks on a link in a web browser and the page finally displays in the web browser.
+
+
+	
+
+	
+
+	
+
+	Discuss the differences between a web server and an email server.
+
+
+	
+
+	
+
+	
+
+	Discuss the ethical considerations and moral obligations involved in using a computer that is capable of communicating with every other computer or networked device on a network.
+
+
+	
+
+	
+
+	
+
+	
+
+________________
+
+
+
+
+#50: Network Topology
+	
+
+Vocabulary
+	Be prepared to define the following terms.
+* Bus topology
+* LAN
+* Mesh topology
+* Peer-to-peer network
+* Star topology
+* WAN
+
+
+Applied Concepts
+	Respond to the following prompts.
+State the type of network topology used for a household Wi-Fi network that consists of a cable modem, a wireless router, multiple laptops, a streaming media player, and a wireless printer.
+
+
+	
+
+	
+
+	
+
+	Outline the benefits of deploying a wireless mesh topology network in rural or underdeveloped regions.
+
+
+	
+
+	
+
+	
+
+	Discuss the differences between a LAN and a WAN.
+
+
+	
+
+	
+
+	
+
+	Explain how a peer-to-peer (P2P) network works. 
+
+
+	
+
+	
+
+	
+
+	
+
+________________
+
+
+
+
+#51: Network Protocols
+	
+
+Vocabulary
+	Be prepared to define the following terms.
+* Bluetooth
+* Data packet
+* Network standards
+* Ping
+* Protocol
+* TCP/IP
+
+
+Applied Concepts
+	Respond to the following prompts.
+List 4 international network standards organizations and identify at least 1 standards protocol designed by each.
+
+
+	
+
+	
+
+	
+
+	Discuss the benefits of protocol standards.
+
+
+	
+
+	
+
+	
+
+	Outline the process of designing, selecting, and approving a protocol standard.
+
+
+	
+
+	
+
+	
+
+	State the protocol used by the ping networking utility.
+
+
+	
+
+	
+
+	
+
+	
+
+________________
+
+
+
+
+#52: Network Layers
+	
+
+Vocabulary
+	Be prepared to define the following terms.
+* Application layer
+* Network layer
+* OSI model
+* Protocol stack
+* TCP/IP model
+* Transport layer
+
+
+Applied Concepts
+	Respond to the following prompts.
+List the 7 layers of the OSI model and indicate their relative positions from the Physical Layer (#1) through the Application Layer (#7).
+
+
+	
+
+	
+
+	
+
+	Suggest a mnemonic phrase for remembering the names and order of the 7 layers of the OSI model.
+
+
+	
+
+	
+
+	
+
+	Compare the OSI networking model with the TCP/IP networking model.
+
+
+	
+
+	
+
+	
+
+	Outline how the Transport Layer functions in the transmission of network communications.
+
+
+	
+
+	
+
+	
+
+	
+
+________________
+
+
+
+
+#53: Network Performance
+	
+
+Vocabulary
+	Be prepared to define the following terms.
+* Data compression
+* Error checking
+* Latency
+* Congestion
+* Packet loss
+* Throughput
+
+
+Applied Concepts
+	Respond to the following prompts.
+Explain how data compression impacts throughput.
+
+
+	
+
+	
+
+	
+
+	Explain how latency impacts throughput.
+
+
+	
+
+	
+
+	
+
+	Explain how network congestion impacts throughput.
+
+
+	
+
+	
+
+	
+
+	Outline the causes of packet loss during network transmissions.
+
+
+	
+
+	
+
+	
+
+	
+
+________________
+
+
+
+
+#54: Network Communication
+	
+
+Vocabulary
+	Be prepared to define the following terms.
+* Channel
+* Packet header
+* Packet switching
+* Payload
+* Routing table
+* Traffic
+
+
+Applied Concepts
+	Respond to the following prompts.
+Describe how a large file is transmitted over a network to a destination through packet switching.
+
+
+	
+
+	
+
+	
+
+	Outline the structure of a typical network packet.
+
+
+	
+
+	
+
+	
+
+	Describe how a network packet reaches its intended destination.
+
+
+	
+
+	
+
+	
+
+	Explain why a sequence of packets sent in one order might arrive at the destination in a different order.
+
+
+	
+
+	
+
+	
+
+	
+
+________________
+
+
+
+
+#55: Wireless Networks
+	
+
+Vocabulary
+	Be prepared to define the following terms.
+* Access point
+* Cellular network
+* IEEE 802
+* Mesh network
+* Personal hotspot
+* Wi-Fi
+
+
+Applied Concepts
+	Respond to the following prompts.
+Describe the differences between a wireless access point and a router.
+
+
+	
+
+	
+
+	
+
+	State the specific protocol for implementing a wireless local area network (WLAN).
+
+
+	
+
+	
+
+	
+
+	Discuss the benefits of using a cellular device as a mobile, personal hotspot.
+
+
+	
+
+	
+
+	
+
+	Outline the advantages and disadvantages of wireless networks.
+
+
+	
+
+	
+
+	
+
+	
+
+________________
+
+
+
+
+#56: Network Security
+	
+
+Vocabulary
+	Be prepared to define the following terms.
+* Biometrics
+* DDoS attack
+* Encryption
+* Firewall
+* Information security
+* Virtual private network
+
+
+Applied Concepts
+	Respond to the following prompts.
+Explain how the use of virtual private networks has enabled changes in traditional working patterns.
+
+
+	
+
+	
+
+	
+
+	State 4 methods by which a user might authenticate oneself to a computer system.
+
+
+	
+
+	
+
+	
+
+	Identify 4 types of security threats that good information security practices can help to mitigate. 
+
+
+	
+
+	
+
+	
+
+	Explain the benefits of encrypting wireless communication.
+
+
+	
+
+	
+
+	
+
+	
+
+________________
+
+
+
+
+#57: Legacy Systems
+	
+
+Vocabulary
+	Be prepared to define the following terms.
+* Backward compatibility
+* End-of-life
+* Long-term support
+* Product lifecycle
+* Software patch
+* Vendor lock-in
+
+
+Applied Concepts
+	Respond to the following prompts.
+Describe the advantages and disadvantages of maintaining backward compatibility with legacy systems.
+
+
+	
+
+	
+
+	
+
+	Discuss the ethical considerations and moral obligations of businesses who encourage vendor lock-in.
+
+
+	
+
+	
+
+	
+
+	Identify 2 reasons for upgrading a system.
+
+
+	
+
+	
+
+	
+
+	Identify 2 reasons for not upgrading a system.
+
+
+	
+
+	
+
+	
+
+	
+
+________________
+
+
+
+
+#58: Data Migration
+	
+
+Vocabulary
+	Be prepared to define the following terms.
+* Data curation
+* Data merging
+* Deduplication
+* Direct changeover
+* Parallel running
+* Phased implementation
+
+
+Applied Concepts
+	Respond to the following prompts.
+Compare the advantages and disadvantages of direct changeover versus parallel running when migrating from one system to another.
+
+
+	
+
+	
+
+	
+
+	Discuss the challenges of merging multiple datasets.
+
+
+	
+
+	
+
+	
+
+	Explain how data curation can facilitate data migration.
+
+
+	
+
+	
+
+	
+
+	Suggest a reason that 2 datasets may not be able to be merged successfully.
+
+
+	
+
+	
+
+	
+
+	
+
+________________
+
+
+
+
+#59: Data Loss
+	
+
+Vocabulary
+	Be prepared to define the following terms.
+* Backup plan
+* Failover system
+* Hardware failure
+* Human error
+* Off-site storage
+* Redundancy
+
+
+Applied Concepts
+	Respond to the following prompts.
+State 4 potential causes of catastrophic data loss.
+
+
+	
+
+	
+
+	
+
+	Explain the need for redundant backup storage solutions.
+
+
+	
+
+	
+
+	
+
+	Outline the advantages and disadvantages of off-site storage.
+
+
+	
+
+	
+
+	
+
+	Discuss the challenges of maintaining a failover system.
+
+
+	
+
+	
+
+	
+
+	
+
+________________
+
+
+
+
+#60: Control Systems
+	
+
+Vocabulary
+	Be prepared to define the following terms.
+* Automation
+* Closed-loop controller
+* Feedback
+* Fuzzy logic
+* Microcontroller
+* Open-loop controller
+
+
+Applied Concepts
+	Respond to the following prompts.
+Describe how an intersection traffic light (i.e., green light, yellow light, red light) can be implemented with an open-loop control system.
+
+
+	
+
+	
+
+	
+
+	Describe how an intersection traffic light (i.e., green light, yellow light, red light) can be implemented with a closed-loop control system.
+
+
+	
+
+	
+
+	
+
+	Identify 4 factors that might go into the logic of a control system for an elevator.
+
+
+	
+
+	
+
+	
+
+	Construct an algorithm for a microcontroller of a heating, ventilation, and air conditioning (HVAC) system that is designed to maintain a consistent room temperature of 70˚F throughout the year.
+
+
+	
+
+	
+
+	
+
+	
+
+________________
+
+
+
+
+#61: Sensor Input
+	
+
+Vocabulary
+	Be prepared to define the following terms.
+* Analog/digital converter
+* Analog input
+* Data collection
+* Digital input
+* Input transducer
+* Output transducer
+
+
+Applied Concepts
+	Respond to the following prompts.
+State 2 specific hardware components required to generate a digital audio signal from a live musical performance.
+
+
+	
+
+	
+
+	
+
+	Compare the differences between analog input and digital input.
+
+
+	
+
+	
+
+	
+
+	Explain how an A/D converter transforms an analog signal into a digital signal.
+
+
+	
+
+	
+
+	
+
+	Identify 1 advantage and 1 disadvantage of digital data.
+
+
+	
+
+	
+
+	
+
+	
+
+________________
+
+
+
+
+#62: Embedded Systems
+	
+
+Vocabulary
+	Be prepared to define the following terms.
+* Consumer electronics
+* Digital signal processor
+* Flash memory
+* Integrated circuit
+* Read-only memory
+* Transistor
+
+
+Applied Concepts
+	Respond to the following prompts.
+Discuss the ethical considerations and moral obligations of using small, location-tracking devices.
+
+
+	
+
+	
+
+	
+
+	Identify 2 hardware challenges in designing a location tracker.
+
+
+	
+
+	
+
+	
+
+	Identify 2 security challenges in designing a location tracker.
+
+
+	
+
+	
+
+	
+
+	Explain how a transistor functions.
+
+
+	
+
+	
+
+	
+
+	
+
+________________
+
+
+
+
+#63: Autonomous Agents
+	
+
+Vocabulary
+	Be prepared to define the following terms.
+* Avatar
+* Bot
+* Digital assistant
+* Expert system
+* Non-player character
+* Virtual assistant
+
+
+Applied Concepts
+	Respond to the following prompts.
+Identify 4 commercially available virtual assistants.
+
+
+	
+
+	
+
+	
+
+	Describe the role that autonomous agents can play in industries such as manufacturing, logistics, and healthcare.
+
+
+	
+
+	
+
+	
+
+	Discuss the benefits and drawbacks of widespread adoption of autonomous agents in our daily lives.
+
+
+	
+
+	
+
+	
+
+	State whether Microsoft should or should not bring back "Clippy" and explain your reasoning.
+
+
+	
+
+	
+
+	
+
+	
+
+________________
+
+
+
+
+#64: Machine Learning
+	
+
+Vocabulary
+	Be prepared to define the following terms.
+* Artificial intelligence
+* Large language model
+* Neural network
+* Reinforcement learning
+* Supervised learning
+* Unsupervised learning
+
+
+Applied Concepts
+	Respond to the following prompts.
+Discuss the role of decision trees in machine learning.
+
+
+	
+
+	
+
+	
+
+	Describe how supervised learning differs from unsupervised learning.
+
+
+	
+
+	
+
+	
+
+	Explain how a neural network works, including the input layer, output layer, and hidden layer(s).
+
+
+	
+
+	
+
+	
+
+	Write a response to this prompt that proves it was not written by an AI.
+
+
+	
+
+	
+
+	
+
+	
+
+________________
+
+
+
+
+  
+
+Algorithmically generated artwork by Sergej Stoppel
+	
+
+
+
+Computer Science 3
