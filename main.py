@@ -1,17 +1,10 @@
 import re
-import os
-
-def find_idx(arr, substring) -> int:
-    for idx, line in enumerate(arr):
-        if substring in line:
-            return idx
-    else:
-        assert(False)
-
 
 # Config
-INPUT_FILEPATH = "res/33-48.txt"
+INPUT_FILEPATH = "res/49-64.txt"
 OUTPUT_FILEPATH = "output/out.txt"
+
+print(f"Reading {INPUT_FILEPATH}...")
 
 txt_arr = []
 with open(INPUT_FILEPATH, "r") as f: 
@@ -21,39 +14,61 @@ with open(INPUT_FILEPATH, "r") as f:
     # Remove array elements that are only whitespace or blank
     txt_arr = [i for i in txt_arr if i != "" and not i.isspace()]
 
-    # Remove intro and outro
+    # Remove intro and outro lines
     txt_arr = txt_arr[6:-2]
 
 txt = "\n".join(txt_arr)
 
+with open("debug/debug.txt", "w") as f: 
+    f.write(txt)
+
+print("Created file without whitespace!")
+
 sections = dict()
-question_sections = txt.split("#")[1:]
 
-output = ""
-
-for section in question_sections:
+# Iterate through file, going one entire stq topic at a time
+# First, finds the #[NUMBER]:, and then takes all the characters, until the next instance of #[NUMBER]:
+for section in re.findall('#..:[\s\S]*?(?=#..:)', txt):
     # First line: number
     # From "Be prepared to define the following terms." to "Applied Concepts" is vocabulary
-    # From "Respond to the following prompts." to end is free response
-    lines = section.split("\n")[:-2]
-    output += "\n".join(lines) + "\n\n"
+    # From "Respond to the following prompts." to underscores is free response
+
+    # Split stq section into seperate lines
+    lines = section.split("\n")
 
     # Get question number
-    question_number = lines[0].split(":")[0]
+    question_number = lines[0].split(":")[0][1:]
 
     # Get all vocab lines
-    vocab = [v[2:] for v in lines[find_idx(lines, "Be prepared to define")+1: find_idx(lines, "Applied Concepts")]]
+    # Starts after "Be prepared to define...\n" and gets all text until "\nApplied Concepts"
+    vocab = [v[2:] for v in re.search('Be prepared to define.*\n([\s\S]*?)\nApplied Concepts', section).group(1).split("\n")]
 
     # Get all free response questions
-    fr = lines[find_idx(lines, "Respond to the following prompts")+1:]
+    # Starts after "Respond to the...\n" and captures all text until the end, not including trailing underscores
+    fr = re.search("Respond to the.+\n([\s\S]*?)_*$", section).group(1).split("\n")
 
-    
+    # Add into dictionary
+    # sections {
+    #   [NUMBER] {
+    #       "vocab" = {}
+    #       "fr" = {}
+    #   }
+    # }
+    sections[question_number] = dict(vocab = vocab, fr = fr)
 
-    
-    
+print("Created dictionary!")
 
+# TODO: Implement whatever you want with the dictionary
+
+# Example output (for debug purposes)
+output = ""
+
+for topic_num in sections:
+    output += f'STQ Topic #{topic_num}\n\n'
+    output += "\n".join(sections[topic_num]["vocab"]) + "\n\n"
+    output += "\n".join(sections[topic_num]["fr"]) + "\n\n\n"
 
 with open(OUTPUT_FILEPATH, "w") as f: 
     f.write(output)
 
-# print(txt)
+print("Wrote output file to " + OUTPUT_FILEPATH)

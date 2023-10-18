@@ -1,45 +1,47 @@
-STQ Topic #33
-
-Boolean value
-Data type
-Integer value
-Real number
-String value
-Type safety
-
+#33: Data Abstraction
+Vocabulary
+Be prepared to define the following terms.
+* Boolean value
+* Data type
+* Integer value
+* Real number
+* String value
+* Type safety
+Applied Concepts
+Respond to the following prompts.
 Describe the relationship between data typing and memory management.
 Identify 2 advantages for the decision to include 4 different data types for representing integer values (i.e., byte, short, int, and long) in the Java programming language.
 Explain how the same 16-bits of data (e.g., 0x2708) can represent either 9992 as an integer, 0.0274658203125 as a real number, or as the dingbat character of an airplane (i.e., ✈).
 0010 0111 0000 1000
 Compare the advantages and disadvantages of "strongly" typed languages versus "weakly" typed languages.
-
-
-
-STQ Topic #34
-
-Buffer
-Dynamic array
-Memory allocation
-Memory overflow
-Record
-Static array
-
+________________
+#34: Static vs. Dynamic Data Structures
+Vocabulary
+Be prepared to define the following terms.
+* Buffer
+* Dynamic array
+* Memory allocation
+* Memory overflow
+* Record
+* Static array
+Applied Concepts
+Respond to the following prompts.
 Describe the features and characteristics of a dynamic data structure.
 Identify 1 reason for choosing to use a dynamic data structure rather than a static data structure.
 Identify 1 reason for choosing to use a static data structure rather than a dynamic data structure.
 Suggest a suitable data structure for a program that stores a digital collection of daily, class notes and explain your reasoning for this choice.
-
-
-
-STQ Topic #35
-
-API
-Collection
-Factory method
-Library
-Static method
-Utility class
-
+________________
+#35: Object Libraries
+Vocabulary
+Be prepared to define the following terms.
+* API
+* Collection
+* Factory method
+* Library
+* Static method
+* Utility class
+Applied Concepts
+Respond to the following prompts.
 Given an ArrayList<Integer> that contains an unknown number of integer values, construct a Java code segment that removes every odd value in the list.
 Explain the justification for having a class that defines only static methods and no constructors.
 State the Java syntax for invoking the following static method of the Weights class.
@@ -47,18 +49,18 @@ public static double poundsToKilos(double pounds) {
         return pounds * 0.453592;
 }
 Identify 4 classes of the Java Collections framework and describe the unique characteristics of each.
-
-
-
-STQ Topic #36
-
-Dynamic list
-Index
-Random access
-Rotation operation
-Shift operation
-Static list
-
+________________
+#36: Lists
+Vocabulary
+Be prepared to define the following terms.
+* Dynamic list
+* Index
+* Random access
+* Rotation operation
+* Shift operation
+* Static list
+Applied Concepts
+Respond to the following prompts.
 Identify 4 standard operations of a dynamic list.
 Explain how the implementation and performance of the get(int index) method of the ArrayList class differs from that of the LinkedList class. 
 Given the following method, construct a new, equivalent implementation that would allow the parameter's type to be generalized from a LinkedList<String> as shown to a List<String>. 
@@ -73,181 +75,196 @@ public void emptyList(LinkedList<String> list) {
                 else { list.addLast(list.removeFirst()) }
         }
 }
-
-
-STQ Topic #37
-
-Circular
-Doubly linked
-Head
-Node
-Singly linked
-Tail
-
+#37: Linked Lists
+Vocabulary
+Be prepared to define the following terms.
+* Circular
+* Doubly linked
+* Head
+* Node
+* Singly linked
+* Tail
+Applied Concepts
+Respond to the following prompts.
 Describe how the elements of a linked list are arranged and stored within memory.
 Identify the type of linked list shown in the following diagram.
 State 1 advantage and 1 disadvantage of a doubly linked list over a singly linked list.
 Describe how the structure of a circularly linked list differs from a singly linked list.
-
-
-
-STQ Topic #38
-
-Dequeue
-Enqueue
-FIFO
-LIFO
-Pop
-Push
-
+________________
+#38: Stacks and Queues
+Vocabulary
+Be prepared to define the following terms.
+* Dequeue
+* Enqueue
+* FIFO
+* LIFO
+* Pop
+* Push
+Applied Concepts
+Respond to the following prompts.
 Identify the functional difference between the use of a stack versus the use of a queue.
 Using a stack and/or a queue, construct an algorithm to reverse the order of the items in an array. You may write your solution in pseudocode.
 Explain why a stack would best be implemented by using a static array to hold its contents.
 Explain why a queue would best be implemented by using a linked list to hold its contents.
-
-
-
-STQ Topic #39
-
-Binary search tree
-Binary tree
-Branching factor
-Leaf
-Root
-Subtree
-
+________________
+#39: Trees
+Vocabulary
+Be prepared to define the following terms.
+* Binary search tree
+* Binary tree
+* Branching factor
+* Leaf
+* Root
+* Subtree
+Applied Concepts
+Respond to the following prompts.
 State the result of an inorder traversal of the above binary tree.
 State the result of a preorder traversal of the above binary tree.
 State the result of a postorder traversal of the above binary tree.
 Identify the leaf nodes of the above binary tree.
 Explain why the above binary tree is not a valid binary search tree.
 Describe how recursion can be used to search through a tree to see if it contains a specific value.
-
-
-
-STQ Topic #40
-
-Analysis
-Design
-Implementation
-Maintenance
-Planning
-Testing
-
+________________
+#40: Software Development Life Cycle
+Vocabulary
+Be prepared to define the following terms.
+* Analysis
+* Design
+* Implementation
+* Maintenance
+* Planning
+* Testing
+Applied Concepts
+Respond to the following prompts.
 Outline at least 4 phases of the software life cycle.
 Identify which aspects of a project the developer and client should determine during the analysis phase of the software development life cycle.
 Explain the purpose of creating prototypes during the initial planning and design phases of the software development life cycle.
 Discuss the cyclic nature of the software development life cycle and its significance in the design, development, and maintenance of a product.
-
-
-
-STQ Topic #41
-
-Alpha test
-Beta test
-Debugger
-Edge case
-General case
-Invariant
-
+________________
+#41: Testing
+Vocabulary
+Be prepared to define the following terms.
+* Alpha test
+* Beta test
+* Debugger
+* Edge case
+* General case
+* Invariant
+Applied Concepts
+Respond to the following prompts.
 Outline the differences between alpha testing and beta testing, including the parties involved and the phases of the software development life cycle in which they apply.
 With regard to testing, discuss the ethical considerations and moral obligations required when releasing newly developed software.
 Identify a set of at least 12  test cases that will thoroughly test the functionality of a method intended to return a String representing the day of the week for a valid date in the current year or return null for any invalid date. NOTE: Invoking dayOfWeekThisYear(1, 5) returns the day of the week for January 5th.
         public static String dayOfWeekThisYear(int month, int day)
 Explain how a programme can or cannot be reasonably sure that their code contains no errors.
-
-
-
-STQ Topic #42
-
-Comment
-Javadoc comment
-Naming convention
-Self-documenting code
-Source code
-Specifications
-
+________________
+#42: Internal Documentation
+Vocabulary
+Be prepared to define the following terms.
+* Comment
+* Javadoc comment
+* Naming convention
+* Self-documenting code
+* Source code
+* Specifications
+Applied Concepts
+Respond to the following prompts.
 Suggest 4 naming conventions that a programmer can employ when selecting names for variables, constants, methods, classes, and other user-defined identifiers.
 Explain the purpose of using clear and consistent naming conventions throughout one's code.
 Evaluate the advantages and disadvantages of including explicit comments versus relying on self-documenting code techniques.
 Discuss the significance of readability of code in terms of programmer collaboration.
-
-
-
-STQ Topic #43
-
-Help menu
-Online support
-User documentation
-
+________________
+#43: External Documentation
+Vocabulary
+Be prepared to define the following terms.
+* Help menu
+* Online support
+* User documentation
+Applied Concepts
+Respond to the following prompts.
 Explain the purpose of creating external documentation for the end-user of a software application.
 Identify at least 4 things that should be included in user documentation.
 Discuss the challenges of providing online support for a software product.
 Describe the effect that insufficient user documentation may have on the success and rate of adoption of a new software product.
-
-
-
-STQ Topic #44
-
-Certification
-Gamification
-In-Person training
-Learning curve
-Online training
-Tutorial
-
+________________
+#44: User Training
+Vocabulary
+Be prepared to define the following terms.
+* Certification
+* Gamification
+* In-Person training
+* Learning curve
+* Online training
+* Tutorial
+Applied Concepts
+Respond to the following prompts.
 Suggest 2 ways in which a software developer can improve the learning curve of their application.
 Discuss the relationship between an individual who develops a software application and an individual who creates a tutorial for that application, including examples of the input/feedback that each might provide to the other.
 Identify 2 software certifications that a graphic designer might seek to document their professional skills.
 Describe how gamification can be used to improve the effectiveness of user training for a software product.
-
-
-
-STQ Topic #45
-
-Accessibility
-Discoverability
-Ergonomics
-Intuitive design
-Metaphor
-Responsiveness
-
+________________
+#45: Usability
+Vocabulary
+Be prepared to define the following terms.
+* Accessibility
+* Discoverability
+* Ergonomics
+* Intuitive design
+* Metaphor
+* Responsiveness
+Applied Concepts
+Respond to the following prompts.
 Identify 2 potential usability problems that might affect the use of digital devices (e.g., computers, phones, game consoles, music players, etc.).
 Identify 2 potential usability problems that might affect the use of online systems or services (e.g., shopping, banking, customer support, streaming media, etc.).
 Discuss the importance of ensuring that, when using a software application, all user interactions generate responsive and meaningful feedback.
 Explain how the use of metaphors can improve the intuitiveness and discoverability of new functionality within a user interface.
-
-
-
-STQ Topic #46
-
-Auditory accessibility
-Color blindness
-Motor accessibility
-Text-to-speech
-Visual accessibility
-Voice recognition
-
+________________
+#46: Accessibility
+Vocabulary
+Be prepared to define the following terms.
+* Auditory accessibility
+* Color blindness
+* Motor accessibility
+* Text-to-speech
+* Visual accessibility
+* Voice recognition
+Applied Concepts
+Respond to the following prompts.
 Identify 2 features that a developer can incorporate into their software to improve its accessibility for individuals with a hearing impairment.
 Identify 2 features that a developer can incorporate into their software to improve its accessibility for individuals with a visual impairment.
 Identify 2 features that a developer can incorporate into their software to improve its accessibility for individuals with a motor impairment.
 Discuss the ethical considerations and moral obligations for a software developer to consider accessibility issues when designing an application.
-
-
-
-STQ Topic #47
-
-CAPTCHA
-Drag and drop
-Speech recognition
-Predictive text
-Turing test
-User interface
-
+________________
+#47: Human-Computer Interaction
+Vocabulary
+Be prepared to define the following terms
+* CAPTCHA
+* Drag and drop
+* Speech recognition
+* Predictive text
+* Turing test
+* User interface
+Applied Concepts
+Respond to the following prompts.
 Discuss the ethical considerations and moral obligations when developing software that is capable of replacing one or more human workers.
 Discuss the ethical considerations and moral obligations when developing software that can mimic the actions and behaviors of a human.
 Explain how a CAPTCHA test determines whether a user is human or a bot.
 Identify 2 features a software developer can incorporate into their application to facilitate human-computer interaction.
-
-
-
+________________
+#48: Encryption
+Vocabulary
+Be prepared to define the following term
+* Ciphertext
+* Cryptography
+* Plaintext
+* Public key
+* Steganography
+* Symmetric key
+Applied Concepts
+Respond to the following prompts.
+State 2 highly secure encryption algorithms that are in common use today.
+Outline the process of the Diffie-Hellman key exchange.
+Explain how a public encryption key that can be used to encrypt a message cannot be used to decrypt the message by a third party.
+Decode the following ROT13 message.
+V QB ABG XABJ GUR NAFJRE GB GUVF DHRFGVBA
+________________
