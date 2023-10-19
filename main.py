@@ -28,7 +28,7 @@ sections = dict()
 
 # Iterate through file, going one entire stq topic at a time
 # First, finds the #[NUMBER]:, and then takes all the characters, until the next instance of #[NUMBER]:
-for section in re.findall('#..:[\s\S]*?(?=#..:)', txt):
+for section in re.findall('#..:[\s\S]*?(?=#..:|$)', txt):
     # First line: number
     # From "Be prepared to define the following terms." to "Applied Concepts" is vocabulary
     # From "Respond to the following prompts." to underscores is free response

@@ -1,253 +1,253 @@
-STQ Topic #33
-
-Boolean value
-Data type
-Integer value
-Real number
-String value
-Type safety
+STQ Topic #49
 
-Describe the relationship between data typing and memory management.
-Identify 2 advantages for the decision to include 4 different data types for representing integer values (i.e., byte, short, int, and long) in the Java programming language.
-Explain how the same 16-bits of data (e.g., 0x2708) can represent either 9992 as an integer, 0.0274658203125 as a real number, or as the dingbat character of an airplane (i.e., ✈).
-0010 0111 0000 1000
-Compare the advantages and disadvantages of "strongly" typed languages versus "weakly" typed languages.
+Client node
+Email server
+Hub
+Router
+Server node
+Web server
 
+State 4 examples of hardware devices that can function as nodes in a computer network.
+Explain the sequence of operations and network devices involved between the time that a user clicks on a link in a web browser and the page finally displays in the web browser.
+Discuss the differences between a web server and an email server.
+Discuss the ethical considerations and moral obligations involved in using a computer that is capable of communicating with every other computer or networked device on a network.
 
 
-STQ Topic #34
 
-Buffer
-Dynamic array
-Memory allocation
-Memory overflow
-Record
-Static array
+STQ Topic #50
 
-Describe the features and characteristics of a dynamic data structure.
-Identify 1 reason for choosing to use a dynamic data structure rather than a static data structure.
-Identify 1 reason for choosing to use a static data structure rather than a dynamic data structure.
-Suggest a suitable data structure for a program that stores a digital collection of daily, class notes and explain your reasoning for this choice.
+Bus topology
+LAN
+Mesh topology
+Peer-to-peer network
+Star topology
+WAN
 
+State the type of network topology used for a household Wi-Fi network that consists of a cable modem, a wireless router, multiple laptops, a streaming media player, and a wireless printer.
+Outline the benefits of deploying a wireless mesh topology network in rural or underdeveloped regions.
+Discuss the differences between a LAN and a WAN.
+Explain how a peer-to-peer (P2P) network works. 
 
 
-STQ Topic #35
 
-API
-Collection
-Factory method
-Library
-Static method
-Utility class
+STQ Topic #51
 
-Given an ArrayList<Integer> that contains an unknown number of integer values, construct a Java code segment that removes every odd value in the list.
-Explain the justification for having a class that defines only static methods and no constructors.
-State the Java syntax for invoking the following static method of the Weights class.
-public static double poundsToKilos(double pounds) {
-        return pounds * 0.453592;
-}
-Identify 4 classes of the Java Collections framework and describe the unique characteristics of each.
+Bluetooth
+Data packet
+Network standards
+Ping
+Protocol
+TCP/IP
 
+List 4 international network standards organizations and identify at least 1 standards protocol designed by each.
+Discuss the benefits of protocol standards.
+Outline the process of designing, selecting, and approving a protocol standard.
+State the protocol used by the ping networking utility.
 
 
-STQ Topic #36
 
-Dynamic list
-Index
-Random access
-Rotation operation
-Shift operation
-Static list
+STQ Topic #52
 
-Identify 4 standard operations of a dynamic list.
-Explain how the implementation and performance of the get(int index) method of the ArrayList class differs from that of the LinkedList class. 
-Given the following method, construct a new, equivalent implementation that would allow the parameter's type to be generalized from a LinkedList<String> as shown to a List<String>. 
-public void emptyList(LinkedList<String> list) {
-        while (!list.isEmpty()) {
-                String a = list.getFirst();
-                String b = list.getLast();
-                if (a.compareTo(b) <= 0) {
-                        System.out.println(a);
-                        list.removeFirst();
-                }
-                else { list.addLast(list.removeFirst()) }
-        }
-}
+Application layer
+Network layer
+OSI model
+Protocol stack
+TCP/IP model
+Transport layer
 
+List the 7 layers of the OSI model and indicate their relative positions from the Physical Layer (#1) through the Application Layer (#7).
+Suggest a mnemonic phrase for remembering the names and order of the 7 layers of the OSI model.
+Compare the OSI networking model with the TCP/IP networking model.
+Outline how the Transport Layer functions in the transmission of network communications.
 
-STQ Topic #37
 
-Circular
-Doubly linked
-Head
-Node
-Singly linked
-Tail
 
-Describe how the elements of a linked list are arranged and stored within memory.
-Identify the type of linked list shown in the following diagram.
-State 1 advantage and 1 disadvantage of a doubly linked list over a singly linked list.
-Describe how the structure of a circularly linked list differs from a singly linked list.
+STQ Topic #53
 
+Data compression
+Error checking
+Latency
+Congestion
+Packet loss
+Throughput
 
+Explain how data compression impacts throughput.
+Explain how latency impacts throughput.
+Explain how network congestion impacts throughput.
+Outline the causes of packet loss during network transmissions.
 
-STQ Topic #38
 
-Dequeue
-Enqueue
-FIFO
-LIFO
-Pop
-Push
 
-Identify the functional difference between the use of a stack versus the use of a queue.
-Using a stack and/or a queue, construct an algorithm to reverse the order of the items in an array. You may write your solution in pseudocode.
-Explain why a stack would best be implemented by using a static array to hold its contents.
-Explain why a queue would best be implemented by using a linked list to hold its contents.
+STQ Topic #54
 
+Channel
+Packet header
+Packet switching
+Payload
+Routing table
+Traffic
 
+Describe how a large file is transmitted over a network to a destination through packet switching.
+Outline the structure of a typical network packet.
+Describe how a network packet reaches its intended destination.
+Explain why a sequence of packets sent in one order might arrive at the destination in a different order.
 
-STQ Topic #39
 
-Binary search tree
-Binary tree
-Branching factor
-Leaf
-Root
-Subtree
 
-State the result of an inorder traversal of the above binary tree.
-State the result of a preorder traversal of the above binary tree.
-State the result of a postorder traversal of the above binary tree.
-Identify the leaf nodes of the above binary tree.
-Explain why the above binary tree is not a valid binary search tree.
-Describe how recursion can be used to search through a tree to see if it contains a specific value.
+STQ Topic #55
 
+Access point
+Cellular network
+IEEE 802
+Mesh network
+Personal hotspot
+Wi-Fi
 
+Describe the differences between a wireless access point and a router.
+State the specific protocol for implementing a wireless local area network (WLAN).
+Discuss the benefits of using a cellular device as a mobile, personal hotspot.
+Outline the advantages and disadvantages of wireless networks.
 
-STQ Topic #40
 
-Analysis
-Design
-Implementation
-Maintenance
-Planning
-Testing
 
-Outline at least 4 phases of the software life cycle.
-Identify which aspects of a project the developer and client should determine during the analysis phase of the software development life cycle.
-Explain the purpose of creating prototypes during the initial planning and design phases of the software development life cycle.
-Discuss the cyclic nature of the software development life cycle and its significance in the design, development, and maintenance of a product.
+STQ Topic #56
 
+Biometrics
+DDoS attack
+Encryption
+Firewall
+Information security
+Virtual private network
 
+Explain how the use of virtual private networks has enabled changes in traditional working patterns.
+State 4 methods by which a user might authenticate oneself to a computer system.
+Identify 4 types of security threats that good information security practices can help to mitigate. 
+Explain the benefits of encrypting wireless communication.
 
-STQ Topic #41
 
-Alpha test
-Beta test
-Debugger
-Edge case
-General case
-Invariant
 
-Outline the differences between alpha testing and beta testing, including the parties involved and the phases of the software development life cycle in which they apply.
-With regard to testing, discuss the ethical considerations and moral obligations required when releasing newly developed software.
-Identify a set of at least 12  test cases that will thoroughly test the functionality of a method intended to return a String representing the day of the week for a valid date in the current year or return null for any invalid date. NOTE: Invoking dayOfWeekThisYear(1, 5) returns the day of the week for January 5th.
-        public static String dayOfWeekThisYear(int month, int day)
-Explain how a programme can or cannot be reasonably sure that their code contains no errors.
+STQ Topic #57
 
+Backward compatibility
+End-of-life
+Long-term support
+Product lifecycle
+Software patch
+Vendor lock-in
 
+Describe the advantages and disadvantages of maintaining backward compatibility with legacy systems.
+Discuss the ethical considerations and moral obligations of businesses who encourage vendor lock-in.
+Identify 2 reasons for upgrading a system.
+Identify 2 reasons for not upgrading a system.
 
-STQ Topic #42
 
-Comment
-Javadoc comment
-Naming convention
-Self-documenting code
-Source code
-Specifications
 
-Suggest 4 naming conventions that a programmer can employ when selecting names for variables, constants, methods, classes, and other user-defined identifiers.
-Explain the purpose of using clear and consistent naming conventions throughout one's code.
-Evaluate the advantages and disadvantages of including explicit comments versus relying on self-documenting code techniques.
-Discuss the significance of readability of code in terms of programmer collaboration.
+STQ Topic #58
 
+Data curation
+Data merging
+Deduplication
+Direct changeover
+Parallel running
+Phased implementation
 
+Compare the advantages and disadvantages of direct changeover versus parallel running when migrating from one system to another.
+Discuss the challenges of merging multiple datasets.
+Explain how data curation can facilitate data migration.
+Suggest a reason that 2 datasets may not be able to be merged successfully.
 
-STQ Topic #43
 
-Help menu
-Online support
-User documentation
 
-Explain the purpose of creating external documentation for the end-user of a software application.
-Identify at least 4 things that should be included in user documentation.
-Discuss the challenges of providing online support for a software product.
-Describe the effect that insufficient user documentation may have on the success and rate of adoption of a new software product.
+STQ Topic #59
 
+Backup plan
+Failover system
+Hardware failure
+Human error
+Off-site storage
+Redundancy
 
+State 4 potential causes of catastrophic data loss.
+Explain the need for redundant backup storage solutions.
+Outline the advantages and disadvantages of off-site storage.
+Discuss the challenges of maintaining a failover system.
 
-STQ Topic #44
 
-Certification
-Gamification
-In-Person training
-Learning curve
-Online training
-Tutorial
 
-Suggest 2 ways in which a software developer can improve the learning curve of their application.
-Discuss the relationship between an individual who develops a software application and an individual who creates a tutorial for that application, including examples of the input/feedback that each might provide to the other.
-Identify 2 software certifications that a graphic designer might seek to document their professional skills.
-Describe how gamification can be used to improve the effectiveness of user training for a software product.
+STQ Topic #60
 
+Automation
+Closed-loop controller
+Feedback
+Fuzzy logic
+Microcontroller
+Open-loop controller
 
+Describe how an intersection traffic light (i.e., green light, yellow light, red light) can be implemented with an open-loop control system.
+Describe how an intersection traffic light (i.e., green light, yellow light, red light) can be implemented with a closed-loop control system.
+Identify 4 factors that might go into the logic of a control system for an elevator.
+Construct an algorithm for a microcontroller of a heating, ventilation, and air conditioning (HVAC) system that is designed to maintain a consistent room temperature of 70˚F throughout the year.
 
-STQ Topic #45
 
-Accessibility
-Discoverability
-Ergonomics
-Intuitive design
-Metaphor
-Responsiveness
 
-Identify 2 potential usability problems that might affect the use of digital devices (e.g., computers, phones, game consoles, music players, etc.).
-Identify 2 potential usability problems that might affect the use of online systems or services (e.g., shopping, banking, customer support, streaming media, etc.).
-Discuss the importance of ensuring that, when using a software application, all user interactions generate responsive and meaningful feedback.
-Explain how the use of metaphors can improve the intuitiveness and discoverability of new functionality within a user interface.
+STQ Topic #61
 
+Analog/digital converter
+Analog input
+Data collection
+Digital input
+Input transducer
+Output transducer
 
+State 2 specific hardware components required to generate a digital audio signal from a live musical performance.
+Compare the differences between analog input and digital input.
+Explain how an A/D converter transforms an analog signal into a digital signal.
+Identify 1 advantage and 1 disadvantage of digital data.
 
-STQ Topic #46
 
-Auditory accessibility
-Color blindness
-Motor accessibility
-Text-to-speech
-Visual accessibility
-Voice recognition
 
-Identify 2 features that a developer can incorporate into their software to improve its accessibility for individuals with a hearing impairment.
-Identify 2 features that a developer can incorporate into their software to improve its accessibility for individuals with a visual impairment.
-Identify 2 features that a developer can incorporate into their software to improve its accessibility for individuals with a motor impairment.
-Discuss the ethical considerations and moral obligations for a software developer to consider accessibility issues when designing an application.
+STQ Topic #62
 
+Consumer electronics
+Digital signal processor
+Flash memory
+Integrated circuit
+Read-only memory
+Transistor
 
+Discuss the ethical considerations and moral obligations of using small, location-tracking devices.
+Identify 2 hardware challenges in designing a location tracker.
+Identify 2 security challenges in designing a location tracker.
+Explain how a transistor functions.
 
-STQ Topic #47
 
-CAPTCHA
-Drag and drop
-Speech recognition
-Predictive text
-Turing test
-User interface
 
-Discuss the ethical considerations and moral obligations when developing software that is capable of replacing one or more human workers.
-Discuss the ethical considerations and moral obligations when developing software that can mimic the actions and behaviors of a human.
-Explain how a CAPTCHA test determines whether a user is human or a bot.
-Identify 2 features a software developer can incorporate into their application to facilitate human-computer interaction.
+STQ Topic #63
 
+Avatar
+Bot
+Digital assistant
+Expert system
+Non-player character
+Virtual assistant
 
+Identify 4 commercially available virtual assistants.
+Describe the role that autonomous agents can play in industries such as manufacturing, logistics, and healthcare.
+Discuss the benefits and drawbacks of widespread adoption of autonomous agents in our daily lives.
+State whether Microsoft should or should not bring back "Clippy" and explain your reasoning.
 
+
+
+STQ Topic #64
+
+Artificial intelligence
+Large language model
+Neural network
+Reinforcement learning
+Supervised learning
+Unsupervised learning
+
+Discuss the role of decision trees in machine learning.
+Describe how supervised learning differs from unsupervised learning.
+Explain how a neural network works, including the input layer, output layer, and hidden layer(s).
+Write a response to this prompt that proves it was not written by an AI.
